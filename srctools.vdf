@@ -1,0 +1,72 @@
+"Config"
+	{
+	// The main game folder. portal2/ for Portal 2, csgo/ for CSGO, etc.
+	// This is relative to the config file.
+	// Default Value: "portal2/"
+	"gameinfo" "tn2/"
+
+
+	// Automatically find and pack files in the map. 
+	// If this is disabled, specifically-indicated files will still be 
+	// added as well as their dependencies.
+	// Default Value: "1"
+	"auto_pack" "0"
+
+
+	// Prevent files in VPKs from being packed into the map.
+	// Default Value: "0"
+	"pack_vpk" "0"
+
+
+	// Add additional search paths to the game. Each key-value pair
+	// defines a path, with the value either a folder path or a VPK 
+	// filename relative to the game root. The key defines the behaviour:
+	// * "prefix" "folder/" adds the path to the start, so it overrides
+	//     all others.
+	// * "path" "vpk_path.vpk" adds the path to the end, so it is checked last.
+	// * "nopack" "folder/" prohibits files in this path from being packed.
+	"searchpaths"
+	{
+		"prefix" "srcmaps/instances/"
+		"prefix" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/portal2/"
+		"prefix" "platform/"
+		"prefix" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/portal2_dlc1/"
+		"prefix" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/portal2_dlc2/"
+		"prefix" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/portal2_dlc3/"
+		"prefix" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/bee2/"
+	}
+
+
+	// Set the path to StudioMDL so the compiler can generate props.
+	// If unset these features are disabled.
+	// This is relative to the game root.
+	// If unset, the default is read from ``.
+	// Default Value: ""
+	"studiomdl" "C:/Program Files (x86)/Steam/steamapps/common/Portal 2/bin/studiomdl.exe"
+
+
+	// Old name for "studiomdl".
+	// Default Value: ""
+	"propcombine_studiomdl" ""
+
+
+	// Define where the QC files are for combinable static props.
+	// This path is searched recursively. If unset this defaults to 
+	// the 'content/' folder, which is adjacent to the game root.
+	// This is how Valve sets up their file structure.
+	"propcombine_qc_folder"
+		{
+		}
+
+
+	// If greater than zero, combine props at least this close together.
+	// This is ignored if comp_propcombine_set entities are in the map.
+	// Default Value: "0"
+	"propcombine_auto_range" "0"
+
+
+	// The minimum number of props required before propcombine will
+	// bother merging them. Should be greater than 1.
+	// Default Value: "2"
+	"propcombine_min_cluster" "2"
+	}

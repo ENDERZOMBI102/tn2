@@ -3,8 +3,6 @@ cfg/video.txt
 cfg/config.cfg
 save
 maps/workshop
-!maps/*.bsp
-!**/_master.cache
 SAVE
 screenshots
 gamestate.txt
@@ -16,3 +14,13 @@ modelsounds.cache
 demoheader.tmp
 *.dem
 desktop.ini
+bin
+P2Multichunker.exe
+postcompiler
+srcmaps/instances
+platform
+*.lnk
+**config.cfg
+*.cache
+*.vmx
+*.prt
