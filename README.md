@@ -1,6 +1,15 @@
 # Tuff's Nightmare 2
 The nightmare returns in this sequel!
 
+mod specifics
+| rickrolls | 0 |
+| --------- | - |
+| jabaits   | 0 |
+| crashes   | -1|
+| exit buttons | 1 |
+| idiots | only tuff |
+
+
 ### what is this?
 This is a troll Portal 2 mod/mappack developed by me for the streamer [AllSoTuff](https://twitch.tv/allsotuff) to "enjoy".
 
