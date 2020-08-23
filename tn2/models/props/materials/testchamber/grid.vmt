@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "testchamber/grid"
+	"$bumpmap" " testchamber/grid_normal"
+	$surfaceprop "chainlink"
+	$translucent 1
+"%noportal" 1
+}

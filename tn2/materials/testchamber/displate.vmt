@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "testchamber/displate"
+	$envmap env_cubemap
+	$envmapmask  "testchamber/displate_spec"
+ 	 $selfillum 1
+  	  $selfillummask "testchamber/displate_illum"
+	$detail  "testchamber/displate_detail"
+	$surfaceprop "glass"
+
+"%noportal" 1
+}

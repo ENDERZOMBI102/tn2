@@ -1,0 +1,69 @@
+"Extras"
+{
+	"alpha0"
+	{
+	    	"title"		"Test chamber 1"
+	    	"subtitle"	"1/8"
+	    	"command"	"map sp_introduction"
+	    	"pic"		"vgui/chapters/1"
+	}
+	
+	"alpha1"
+	{
+	    	"title"		"Test chamber 2"
+	    	"subtitle"	"2/8"
+	    	"command"	"map sp_continuation"
+	    	"pic"		"vgui/chapters/2"
+	}
+	
+	"alpha2"
+	{
+	    	"title"		"Test chamber 3"
+	    	"subtitle"	"3/8"
+	    	"command"	"map sp_ricochet"
+	    	"pic"		"vgui/chapters/3"
+	}
+	
+	"alpha3"
+	{
+	    	"title"		"Test chamber 4"
+	    	"subtitle"	"4/8"
+	    	"command"	"map sp_nortal"
+	    	"pic"		"vgui/chapters/4"
+	}
+	
+	
+	"alpha4"
+	{
+	    	"title"		"Test chamber 5"
+	    	"subtitle"	"5/8"
+	    	"command"	"map sp_doubleglass"
+	    	"pic"		"vgui/chapters/5"
+	}
+
+	"alpha5"
+	{
+	    	"title"		"Test chamber 6"
+	    	"subtitle"	"6/8"
+	    	"command"	"map sp_barier"
+	    	"pic"		"vgui/chapters/6"
+	}
+
+	"alpha6"
+	{
+	    	"title"		"Test chamber 7"
+	    	"subtitle"	"7/8"
+	    	"command"	"map sp_displate"
+	    	"pic"		"vgui/chapters/7"
+	}
+
+	"alpha7"
+	{
+	    	"title"		"Test chamber 8"
+	    	"subtitle"	"8/8"
+	    	"command"	"map sp_fizzlerado"
+	    	"pic"		"vgui/chapters/8"
+	}
+
+
+}

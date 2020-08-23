@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/w_models/warpgun"
+	$bumpmap  "models/weapons/w_models/warpgun_normal"
+
+}

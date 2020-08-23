@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/w_models/arc"
+"$surfaceprop" "Default"
+"$translucent" 1
+"$scrollspeed" 0
+"Proxies" 
+{ 
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate" "12" 
+}
+"MaterialModify"
+{
+}
+ 
+"TextureScroll"
+            {
+                "textureScrollVar" "$basetexturetransform"
+                "textureScrollRate" "$scrollspeed"
+                "textureScrollAngle" 90
+            }
+
+} 
+}

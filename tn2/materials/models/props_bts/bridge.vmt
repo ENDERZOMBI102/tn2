@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_bts/bridge"
+	"$bumpmap" "models/props_bts/bridge_normal"
+
+}

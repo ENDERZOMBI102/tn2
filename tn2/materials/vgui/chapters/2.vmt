@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/chapters/2"
+	"$translucent" 1
+}

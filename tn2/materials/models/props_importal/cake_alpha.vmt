@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_importal/cake_alpha"
+	"$bumpmap" "models/props_importal/cake_alpha_normal"
+}
