@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "304"
+	"mapversion" "308"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "304"
+	"mapversion" "308"
 	"classname" "worldspawn"
 	"chaptertitle" "are you ready for this... nightmare?"
 	"detailmaterial" "detail/detailsprites"

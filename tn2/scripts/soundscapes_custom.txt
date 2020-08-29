@@ -1,0 +1,1960 @@
+
+//////////////////////////////////////////////////////////////
+////////////Soundscapes for my customized chambers////////////
+//////////////////////////////////////////////////////////////
+
+
+
+"Custom.bts.catwalks" //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_BTS.Comb"
+		"volume"	"1"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	"0.5"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient.hi"
+		"volume"	"0.56"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_Industrial.WarehouseImpact_02"
+		"volume"	"0.8"
+
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.BowedMetal_01"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.WarehouseWronk_01"
+		"volume" "0.7"
+	}
+}
+
+"Custom.bts.hallway" //// Clean/BTS themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.63"
+		"wave"		"ambient\tones\amb_abstract_air_lp_05.wav"
+		"pitch"		"100"
+
+	}
+
+	
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"80"
+		"wave"		"ambient\industrial\amb_mach_behind_walls_lp_05.wav"
+	}
+
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 "1"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" "util.random.metal_groans"
+		"volume" ".5"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_lo.end_mach"
+		"volume" ".79"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	 ".66"
+
+	}
+}
+
+"Custom.bts.hallway2" //// BTS themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient/industrial/amb_industrial_muffled_lp_02.wav"
+		"pitch"		"90"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".78"
+		"wave"		"ambient/Tones/Amb_Abstract_air_lp_07.wav"
+		"pitch"		"105"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_lo.end_mach"
+		"volume" ".79"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_Industrial.WarehouseWronk_02"
+		"volume"	 ".7"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".7"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" "util.random.metal_groans"
+		"volume" ".6"
+	}
+
+}
+
+"Custom.bts.hallway.ventilation" //// Clean/BTS themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playrandom"
+	{
+
+		"volume"	".6, 1"
+		"pitch"		"65,105"
+		"time"		"8.0, 16.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_85dB"
+		"rndwave"
+		{
+			"wave" "ambient\random_abstract\amb_randomAbstract_01.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_02.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_03.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_04.wav"
+		}
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"portal_testchmb.track_train"
+		"volume"	"0.7"
+
+	}
+
+}
+
+"Custom.bts.room01" //// Clean/BTS themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"ambient\industrial\amb_warehouse_power_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"ambient\tones\amb_abstract_air_lp_03.wav"
+		"pitch"		"100"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\electrical\amb_hotel_refrigeration_lp_01.wav"
+		"pitch"		"103"
+	}
+
+}
+
+"Custom.bts.room02"  //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\tones\amb_abstract_air_lp_06.wav"
+		"pitch"		"123"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		"ambient\industrial\amb_heavy_mach_lp_02.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\industrial\amb_machinery_factory_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.24"
+		"wave"		"ambient\industrial\amb_sterile_lp_01.wav"
+		"pitch"		"115"
+	}
+
+}
+
+"Custom.bts.room03"  //// BTS theme ////
+//// THESE SOUNDS WILL NEED TO BE ADDED BEFORE USING THIS SOUNDSCAPE: ////
+//// ambient/materials/metal_rattle1.wav                              ////
+//// ambient/materials/metal_rattle3.wav                              ////
+//// ambient/materials/metal_rattle4.wav                              ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_02.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\industrial\amb_machinery_factory_lp_01.wav"
+		"pitch"		"50"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".8"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".7"
+
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.9,0.1"
+		"pitch"		"70, 120"
+		"time"		"5.0, 15.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL45dB"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/metal_rattle1.wav"
+			"wave"	"ambient/materials/metal_rattle3.wav"
+			"wave"	"ambient/materials/metal_rattle4.wav"
+		}
+	}
+
+
+}
+
+"Custom.bts.transition_area"  //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"ambient\industrial\amb_heavy_mach_lp_01.wav"
+		"pitch"		"75"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\tones\amb_abstract_air_lp_02.wav"
+		"pitch"		"125"
+	}
+
+}
+
+"Custom.bubbling_goo" //// Anywhere near deadly goo ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient/nature/water/amb_bubbling_goo_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient/levels/canals/toxic_slime_loop1.wav"
+		"pitch"		"100"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.5,0.8"
+		"pitch"		"80, 135"
+		"time"		"2.0, 7.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_65dB"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle2.wav"
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle3.wav"
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle4.wav"
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle5.wav"
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle7.wav"
+			"wave"	"ambient/levels/canals/toxic_slime_gurgle8.wav"
+		}
+	}
+
+}
+
+"Custom.cave_area" //// Underground theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+		"pitch"		"50"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"	
+		"wave"		"ambient\nature\water\amb_sphere_water_lp_04.wav"
+		"pitch"		"66"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.5"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.rockdebris"
+		"volume" "0.5"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.rockfall"
+		"volume" "0.7"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.7"
+	}
+
+	"playrandom"
+	{
+		"volume"	".9,1"
+		"pitch"		"80,105"
+		"time"		"15.0, 35.0"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave" "ambient/random_abstract/amb_boomer_05.wav"
+			"wave" "ambient/random_abstract/amb_boomer_06.wav"
+			"wave" "ambient/random_abstract/amb_boomer_07.wav"
+		}
+	}
+
+}
+
+"Custom.chamber.room01"  //// Clean theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_04.wav"
+		"pitch"		"120"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".5"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".7"
+
+	}
+
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient.hi"
+		"volume"	 ".5"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.tech.random.ambient.hi"
+		"volume"	 ".4"
+
+	}
+}
+
+"Custom.dark_area"
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.7"	
+		"wave"		"ambient\industrial\amb_warehouse_power_lp_01.wav"
+		"pitch"		"10"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\industrial\amb_warehouse_power_lp_01.wav"
+		"pitch"		"10"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_04.wav"
+		"pitch"		"65"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".4"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.6"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	 ".5"
+	}
+
+}
+
+"Custom.drone_01" //// Upper underground theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"	
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"80"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.5"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "0.7"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalPipe_01"
+		"volume" "0.3"
+	}
+}
+
+"Custom.drone_02" //// Underground theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"	
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"80"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.5"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "0.7"
+	}
+}
+
+"Custom.drone_03" //// Underground theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"	
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"80"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".66"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_06.wav"
+		"pitch"		"77"
+
+	}
+}
+
+"Custom.drone_04" //// Underground/Decayed themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "1"
+	}
+}
+
+"Custom.drone_05" //// Underground/Decayed themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.DestructionBeauty"
+		"volume" "0.7"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"Testchamber_Destruction.Grain_Click"
+		"volume" "0.7"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalPipe_01"
+		"volume" "0.3"
+	}
+}
+
+"Custom.drone_alt_01" //// Underground theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone1LP.wav"
+		"pitch"		"50"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"60"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.5"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "0.7"
+	}
+}
+
+"Custom.drone_alt_02" //// Underground/Lower Aperture themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.8"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+		"pitch"		"105"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"60"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.6"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	"0.5"
+
+	}
+
+	"playsoundscape"
+	{  
+		"name" "util_lo.end_mach"
+		"volume" ".6"
+	}
+}
+
+"Custom.drone_alt_02.industrial" //// Underground/Lower Aperture themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+		"pitch"		"105"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"60"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"	
+		"wave"		"ambient\industrial\amb_sterile_lp_01.wav"
+		"pitch"		"113"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"util.random.metal_groans"
+		"volume" "0.65"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.WarehouseImpact_02"
+		"volume" "0.7"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	"0.5"
+
+	}
+
+	"playsoundscape"
+	{  
+		"name" "util_lo.end_mach"
+		"volume" ".8"
+	}
+}
+
+"Custom.drone_alt_03" //// Underground/Lower Aperture themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_03.wav"
+		"pitch"		"85"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"60"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.5"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.ClickStick_01"
+		"volume" "0.4"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "0.8"
+	}
+
+}
+
+"Custom.groaning_metal_01" //// Decayed/Semi-decayed themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\wind\amb_eerie_wind_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalGroan_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"Testchamber_Destruction.Grain_Click"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.8"
+	}
+
+}
+
+"Custom.groaning_metal_02" //// Decayed/Semi-decayed themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalGroan_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"Testchamber_Destruction.Grain_Click"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.8"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.9, 1.0"
+		"pitch"		"45, 65"
+		"time"		"6.0, 15.0"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_01.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_02.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_03.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_04.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_05.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_06.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_07.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_08.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_09.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_10.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_11.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_12.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_13.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_14.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_15.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_16.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_17.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_18.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_19.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_20.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_21.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_22.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_23.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_24.wav"
+		}
+	}
+}
+
+"Custom.groaning_metal_03" //// Decayed/Semi-decayed themes ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\wind\amb_eerie_wind_lp_01.wav"
+		"pitch"		"95"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalGroan_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"Testchamber_Destruction.Grain_Click"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.8"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.9, 1.0"
+		"pitch"		"45, 65"
+		"time"		"6.0, 15.0"
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_01.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_02.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_03.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_04.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_05.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_06.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_07.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_08.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_09.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_10.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_11.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_12.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_13.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_14.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_15.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_16.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_17.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_18.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_19.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_20.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_21.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_22.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_23.wav"
+			"wave" "playonce/ambient/metal/amb_metal_pipe_clang_24.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.7,0.85"
+		"pitch"		"75, 100"
+		"time"		"10.0, 16.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_33.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_34.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_35.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_36.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_37.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_38.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_39.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_40.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_41.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_42.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_43.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_44.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_45.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_46.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_47.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_48.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_49.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_50.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_51.wav"
+			"wave" "playonce/ambient/metal/amb_metal_scrape_wronk_52.wav"
+		}
+	}
+}
+
+"Custom.hallway" //// Clean theme, in a tight hallway of course ////
+
+{
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone_int_lp.wav"
+		"pitch"		"91"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\atmosphere\drone_int_lp.wav"
+		"pitch"		"101"
+
+	}
+}
+
+"Custom.incinerator_room" //// Clean/Semi-decayed themes ////
+
+{
+	"playlooping"
+	{
+		"volume"	".5"	
+		"wave"		"(ambient\fire\incinerator_base_lp_01.wav"
+		"pitch"		"85"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"	
+		"wave"		"ambient\tones\amb_abstract_air_lp_04.wav"
+		"pitch"		"95"
+
+	}
+	
+	"playrandom"
+	{
+		"volume"	"0.9,1.0"
+		"pitch"		"85, 100"
+		"time"		"7.0, 12.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_105dB"
+		"rndwave"
+		{
+			"wave" "ambient\fire\amb_fireball_flyby_01.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_02.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_03.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_04.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_05.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_06.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_07.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_08.wav"
+			"wave" "ambient\fire\amb_fireball_flyby_09.wav"
+		}
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.ScrapedMetal_01"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.WarehouseWronk_01"
+		"volume" "0.8"
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.ClickStick_01"
+		"volume" "1"
+	}
+}
+
+"Custom.musical_2" //// Open area theme, very bright ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"	
+		"wave"		"ambient\synth\amb_bts_crystal_lp_01.wav"
+		"pitch"		"59"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ui\p2_editor_drone_lp_05.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"	
+		"wave"		"ambient\wind\amb_eerie_wind_lp_01.wav"
+		"pitch"		"95"
+	}
+
+	"playrandom"
+	{
+
+		"volume"	".1,.2"
+		"pitch"		"75,105"
+		"time"		"8.0, 16.0"
+		"rndwave"
+		{
+			"wave" "ambient\random_abstract\amb_randomAbstract_01.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_02.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_03.wav"
+			"wave" "ambient\random_abstract\amb_randomAbstract_04.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"80"
+		"time"		"14.0, 14.0"
+		"rndwave"
+		{
+			"wave" "ambient/synth/amb_beautiful_destruction_01.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_02.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_03.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_04.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_05.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	".4, .5"
+		"pitch"		"100"
+		"time"		"8.0, 18.0"
+		"rndwave"
+		{
+			"wave" "ui\p2_editor_blips_02.wav"
+			"wave" "ui\p2_editor_blips_03.wav"
+			"wave" "ui\p2_editor_blips_04.wav"
+			"wave" "ui\p2_editor_blips_05.wav"
+			"wave" "ui\p2_editor_blips_06.wav"
+			"wave" "ui\p2_editor_blips_07.wav"
+			"wave" "ui\p2_editor_blips_08.wav"
+			"wave" "ui\p2_editor_blips_09.wav"
+			"wave" "ui\p2_editor_blips_10.wav"
+			"wave" "ui\p2_editor_blips_11.wav"
+			"wave" "ui\p2_editor_blips_12.wav"
+			"wave" "ui\p2_editor_blips_13.wav"
+			"wave" "ui\p2_editor_blips_14.wav"
+			"wave" "ui\p2_editor_blips_15.wav"
+			"wave" "ui\p2_editor_blips_16.wav"
+			"wave" "ui\p2_editor_blips_17.wav"
+			"wave" "ui\p2_editor_blips_18.wav"
+			"wave" "ui\p2_editor_blips_19.wav"
+			"wave" "ui\p2_editor_blips_20.wav"
+			"wave" "ui\p2_editor_blips_21.wav"
+			"wave" "ui\p2_editor_blips_22.wav"
+			"wave" "ui\p2_editor_blips_23.wav"
+			"wave" "ui\p2_editor_blips_24.wav"
+			"wave" "ui\p2_editor_blips_25.wav"
+			"wave" "ui\p2_editor_blips_26.wav"
+			"wave" "ui\p2_editor_blips_27.wav"
+			"wave" "ui\p2_editor_blips_28.wav"
+			"wave" "ui\p2_editor_blips_29.wav"
+			"wave" "ui\p2_editor_blips_31.wav"
+			"wave" "ui\p2_editor_blips_32.wav"
+			"wave" "ui\p2_editor_blips_33.wav"
+			"wave" "ui\p2_editor_blips_34.wav"
+			"wave" "ui\p2_editor_blips_35.wav"
+			"wave" "ui\p2_editor_blips_36.wav"
+			"wave" "ui\p2_editor_blips_37.wav"
+			"wave" "ui\p2_editor_blips_39.wav"
+			"wave" "ui\p2_editor_blips_40.wav"
+			"wave" "ui\p2_editor_blips_41.wav"
+			"wave" "ui\p2_editor_blips_42.wav"
+			"wave" "ui\p2_editor_blips_43.wav"
+		}
+	}
+}
+
+"Custom.musical_den" //// Decayed theme ////
+
+{
+	"playlooping"
+	{
+		"volume"	"0.7"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_03.wav"
+		"pitch"		"100"
+
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"12.0, 12.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_85dB" 
+		"rndwave"
+		{
+			"wave" "ambient/synth/amb_beautiful_destruction_01.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_02.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_03.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_04.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_05.wav"
+		}
+	}
+
+
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"75"
+		"time"		"18.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_85dB" 
+		"rndwave"
+		{
+			"wave" "ambient/synth/amb_beautiful_destruction_01.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_02.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_03.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_04.wav"
+			"wave" "ambient/synth/amb_beautiful_destruction_05.wav"
+		}
+	}
+
+	"playsoundscape"
+	{
+		"name"		"TestChamber_BTS.Crystal"
+		"volume"	"1"	
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalPipe_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}
+
+}
+
+"Custom.open_area" //// Open area theme, not so bright ////
+
+{
+
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\tones\amb_abstract_air_lp_07.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"133"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	"0.7"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	"0.6"
+
+	}
+
+}
+
+"Custom.paint.gelflow_01" //// Underground theme, nearby a gel pump ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"physics\paint\gel_flow_hero_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\nature\water\amb_bubbling_goo_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" "utility.metal.imp.lo"
+		"volume" ".7"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util.random.boomer"
+		"volume" ".6"
+	}
+}
+
+"Custom.paint.gelflow_02" //// Underground theme, nearby a gel pump ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	".5"
+		"wave"		"world\a3_end_paint_suction_lp.wav"
+		"pitch"		"100"
+
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ug_climb_exit_01"
+		"volume"	"1"
+
+	}
+}
+
+"Custom.sea_of_death" //// Clean/Underground themes, very foggy ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.8"	
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+		"pitch"		"100"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util_lo.end_mach"
+		"volume" "0.7"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "0.8"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.boomer"
+		"volume" "1"
+	}
+}
+
+"Custom.testchamber.bts" //// Clean/Semi-decayed themes, nearby a BTS area ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_02.wav"
+		"pitch"		"100"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"0.84"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_04.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient\industrial\amb_machinery_factory_lp_01.wav"
+		"pitch"		"50"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".8"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".7"
+
+	}
+
+}
+
+"Custom.testchamber.bts2" //// Clean/Semi-decayed themes, nearby a BTS area ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_02.wav"
+		"pitch"		"75"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient\industrial\amb_machinery_factory_lp_01.wav"
+		"pitch"		"50"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".5"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".7"
+
+	}
+
+}
+
+"Custom.testchamber_decay_full" //// Decayed theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.DestructionBase"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Standard"
+		"volume" "1"
+	}
+
+	"playrandom"
+	{
+		"time"		"10,18"
+		"volume"	".1,.25"
+		"pitch"		"95,155"
+		"position"	"random"
+
+		"rndwave"
+		{
+		"wave"		"ambient\nature\water\amb_water_drain_01.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_02.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_03.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_04.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_05.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_06.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_07.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_08.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_09.wav"
+		}
+	}
+
+}
+
+"Custom.testchamber_decay_no_insects" //// Decayed theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.DestructionBase"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "1"
+	}
+
+	"playrandom"
+	{
+		"time"		"10,18"
+		"volume"	".1,.25"
+		"pitch"		"95,155"
+		"position"	"random"
+
+		"rndwave"
+		{
+		"wave"		"ambient\nature\water\amb_water_drain_01.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_02.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_03.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_04.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_05.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_06.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_07.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_08.wav"
+		"wave"		"ambient\nature\water\amb_water_drain_09.wav"
+		}
+	}
+}
+
+"Custom.tight_space"
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\atmosphere\drone_int_lp.wav"
+		"pitch"		"95"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\electrical\amb_hotel_refrigeration_lp_01.wav"
+		"pitch"		"115"
+	}
+
+
+	"playsoundscape"
+	{
+		"name" "utility.metal.imp.lo"
+		"volume" ".2"
+	}
+
+
+	"playsoundscape"
+	{
+		"name" "util.random.boomer"
+		"volume" ".3"
+	}
+
+}
+
+"Custom.tight_space.cheap"
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\tones\amb_abstract_air_lp_03.wav"
+		"pitch"		"100"
+	}
+}
+
+"Custom.turretchamber" //// Clean/Semi-decayed themes, with turrets ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\industrial\amb_industrial_medium_lp_01.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient\tones\amb_abstract_air_lp_06.wav"
+		"pitch"		"100"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient.hi"
+		"volume"	 ".3"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".3"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.tech.random.ambient.hi"
+		"volume"	 ".3"
+
+	}
+}
+
+"Custom.vegetation" //// On the surface ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_03"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_02"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.DestructionBeauty"
+		"volume" "1"
+	}
+}
+
+"Custom.vent_room" //// Clean/Semi-decayed themes, includes pneumatic deversity vents ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.57"
+		"wave"		"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"120"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"ambient\industrial\amb_industrial_muffled_lp_03.wav"
+		"pitch"		"100"
+
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.MetalPipe_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Industrial.BowedMetal_01"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Industrial.ScrapedMetal_01"
+		"volume" "0.8"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"util.random.metal_groans"
+		"volume" "1"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"utility.metal.imp.lo"
+		"volume" "1"
+	}
+}
+
+"Custom.warehouse_full" //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\industrial\warehouse_ambience_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\metal\amb_motor_warehouse_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient\industrial\amb_warehouse_power_lp_01.wav"
+		"pitch"		"66"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.random.metal_groans"
+		"volume"	".6"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	".7"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_Industrial.WarehouseImpact_01"
+		"volume"	".8"
+
+	}
+
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Industrial.WarehouseWronk_01"
+		"volume" "0.8"
+	}
+}
+
+"Custom.wind_tunnel" //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"		"ambient\fire\incinerator_base_lp_01.wav"
+		"pitch"		"80"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"player\player_fall_whoosh_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_Industrial.ClickStick_01"
+		"volume"	"1"
+
+	}
+
+}
+
+"Custom.windy_warehouse" //// BTS theme ////
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\industrial\warehouse_ambience_lp_01.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient\wind\underground_wind_lp_01.wav"
+		"pitch"		"133"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient\wind\amb_eerie_wind_lp_01.wav"
+		"pitch"		"96"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.random.metal_groans"
+		"volume"	".5"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	".6"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"TestChamber_Industrial.WarehouseImpact_01"
+		"volume"	".7"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.abstract.random.ambient"
+		"volume"	".7"
+
+	}
+}
+
+
