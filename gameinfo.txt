@@ -21,9 +21,12 @@
 
 		SearchPaths
 		{
-			Game    |gameinfo_path|.
-			Game    portal2
-			Game	tn2
+			Game    	|gameinfo_path|.
+			Game    	portal2
+			Game		portal2_dlc2
+			Game		portal2/../bee2/
+
+			platform	platform
 		}
 	}
 }

@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_mall/cage_red01_fixture.vtf"
+}

@@ -1,0 +1,8 @@
+"DecalModulate"
+{
+	"$decal" 1
+	"$basetexture" "Decals/footprint_left"
+	"$decalscale" 0.25
+}
+
+

@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/PLASTIC/PLASTICWALL004A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c-597_-459_8"
+	}
+}

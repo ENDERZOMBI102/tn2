@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/TILE/LOBBY_TILEFLOOR_1940_001C.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c779_-461_296"
+	}
+}

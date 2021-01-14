@@ -3,7 +3,7 @@
 	// The main game folder. portal2/ for Portal 2, csgo/ for CSGO, etc.
 	// This is relative to the config file.
 	// Default Value: "portal2/"
-	"gameinfo" "tn2/"
+	"gameinfo" "."
 
 
 	// Automatically find and pack files in the map. 

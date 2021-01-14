@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR003B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c447_-248_488"
+	}
+}

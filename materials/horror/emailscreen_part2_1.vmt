@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "horror/emailscreen_part2_1"
+Proxies
+{
+ToggleTexture
+{
+toggleTextureVar $baseTexture
+toggleTextureFrameNumVar $frame
+toggleTextureShouldWrap 0
+}
+}
+
+}

@@ -15,7 +15,7 @@ demoheader.tmp
 *.dem
 desktop.ini
 bin
-P2Multichunker.exe
+*.exe
 postcompiler
 srcmaps/instances
 platform
@@ -24,3 +24,5 @@ platform
 *.cache
 *.vmx
 *.prt
+*.bsp
+mapsrc/instances

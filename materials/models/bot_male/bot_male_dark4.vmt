@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "models/bot_male/bot_male_dark4"
+$surfaceprop default
+$bumpmap "models/bot_male/button_normal"
+$selfillum 1
+}

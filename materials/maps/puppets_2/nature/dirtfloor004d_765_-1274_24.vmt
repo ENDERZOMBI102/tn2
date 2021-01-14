@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/NATURE/DIRTFLOOR004D.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c765_-1274_24"
+	}
+}

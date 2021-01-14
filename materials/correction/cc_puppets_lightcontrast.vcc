@@ -1,0 +1,27 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "e2c64195-afcd-4709-acb0-9fb5615cf9a4"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionCurvesOp"
+		{
+			"id" "elementid" "96795776-23aa-4e8b-b613-5f68f0db8b30"
+			"blendFactor" "float" "0.4705882668"
+			"channelMask" "int" "7"
+			"controlPoints" "vector3_array" 
+			[
+				"0 0 0",
+				"0 0 0",
+				"0.2565445006 0.1780104637 0",
+				"0.3874345422 0.5183246136 0",
+				"0.6387434602 0.9476439953 0",
+				"1 1 0",
+				"1 1 0"
+			]
+			"enabled" "bool" "1"
+			"name" "string" "Curves"
+		}
+	]
+}
+

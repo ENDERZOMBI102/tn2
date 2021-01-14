@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETE_BTS_FLOOR001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c1085_579_197"
+	}
+}

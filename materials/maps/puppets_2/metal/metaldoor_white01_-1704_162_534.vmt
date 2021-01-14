@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/METALDOOR_WHITE01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/puppets_2/c-1704_162_534"
+	}
+}
