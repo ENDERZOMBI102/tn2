@@ -2,10 +2,10 @@
 
 function ButtonPressed() {
 	local energyPositionVector = GetEnergyBallPosition()
-	
-	if (CheckIfPlayerCanFit(energyPositionVector)){
+
+	if ( CheckIfPlayerCanFit(energyPositionVector) ) {
 		TeleportPlayerToEnergyBall()
-		}
+	}
 
 }
 
@@ -14,7 +14,7 @@ self.ConnectOutput("OnPressed", "ButtonPressed")
 
 
 function TeleportPlayerToEnergyBall() {
-	TeleportEntityToVector(GetPlayer(), GetEnergyBallPosition());
+	TeleportEntityToVector( GetPlayer(), GetEnergyBallPosition() );
 	EntFire("prop_energy_ball", "Explode");
 	EntFire("tesla", "TurnOff");
 	EntFire("ball_launcher", "launchball","", 1.5);
@@ -26,10 +26,9 @@ function GetEnergyBallPosition() {
 	local energyball = Entities.FindByClassname(null, "prop_energy_ball")
 	if (energyball != null){
 		energyball.ValidateScriptScope()
-		return(energyball.GetOrigin())
+		return( energyball.GetOrigin() )
 	}
-	else
-		return(null);
+	else return(null);
 }
 
 function CheckIfPlayerCanFit(vector) {

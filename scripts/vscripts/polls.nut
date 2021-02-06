@@ -1,6 +1,6 @@
 function ShowPoll() {
-	printl(GetMapName())
-	switch (GetMapName()) {
+	printl( GetMapName() )
+	switch ( GetMapName() ) {
 		case "sp_introduction"  :	 ShowSurveymonkeyPoll("GK5SM2Y"); break;
 		case "sp_continuation"  :	 ShowSurveymonkeyPoll("FPL7TJC"); break;
 		case "sp_ricochet" 	    :	 ShowSurveymonkeyPoll("W9Y9PXC"); break;

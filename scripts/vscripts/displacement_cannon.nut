@@ -1,4 +1,4 @@
-isTeslaActive <- false 
+isTeslaActive <- false
 teslaHandle <- null
 isShieldActive <- false
 hasBallLeftRadius <- true
@@ -6,18 +6,15 @@ hasBallLeftRadius <- true
 //Main Functions
 
 function DoAttack1() {
-	if( GetViewmodelModel() == "models/weapons/v_warpgun.mdl" && GetPlayerHealth() > 0) {	
+	if( GetViewmodelModel() == "models/weapons/v_warpgun.mdl" && GetPlayerHealth() > 0) {
 		local energyball = Entities.FindByClassname(null, "prop_energy_ball")
-			if( energyball == null )
-				{
+			if( energyball == null ) {
 				CreateEnergyBall();
-				}
-				else 
-				{
+			} else {
 				ExplodeEnergyball();
-				}
+			}
 	}
-	}
+}
 
 self.ConnectOutput("PressedAttack", "DoAttack1")
 
@@ -28,7 +25,7 @@ function DoAttack2()
 	if ( energyball != null &&  GetViewmodelModel() == "models/weapons/v_warpgun.mdl" && GetPlayerHealth() > 0) {
 		energyball.ValidateScriptScope()
 		local energyPositionVector = GetEnergyBallPosition()
-		if (CheckIfPlayerCanFit(energyPositionVector)){
+		if ( CheckIfPlayerCanFit(energyPositionVector) ) {
 			ExplodeEnergyball()
 			TeleportEntityToVector(GetPlayer(), energyPositionVector)
 			}
@@ -41,20 +38,19 @@ self.ConnectOutput("PressedAttack2", "DoAttack2")
 
 
 
-function Think() {                                                                                                                                
- 
+function Think() {
+
  if (Entities.FindByName(null, "energyball") != null){
 
 
-		if (!hasBallLeftRadius &&  !CalculateIfTouchesPlayer(GetEnergyBallPosition())){
+		if (!hasBallLeftRadius &&  !CalculateIfTouchesPlayer( GetEnergyBallPosition() ) ) {
 			hasBallLeftRadius = true;
 			isShieldActive = true;
 		}
-	
 
-		if (CalculateIfTouchesPlayer(GetEnergyBallPosition())&& isShieldActive)
-			ExplodeEnergyball();
-			
+
+		if ( CalculateIfTouchesPlayer( GetEnergyBallPosition() ) && isShieldActive) ExplodeEnergyball();
+
 	}
 
 }
@@ -84,8 +80,8 @@ function CalculateIfTouchesPlayer(vector) {
 	local playervector = GetPlayerPositionVector();
 	return ((CalculateDistance2D(playervector, vector) < 120) && abs(playervector.z- vector.z) < 180)
  }
- 
- 
+
+
 function CalculateDistance3D(vector1, vector2) {
 	return sqrt( pow((vector1.x - vector2.x), 2) + pow((vector1.y - vector2.y), 2) + pow((vector1.z - vector2.z), 2));
 }
