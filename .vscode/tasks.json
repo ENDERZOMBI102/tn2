@@ -1,0 +1,12 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Mod",
+            "type": "shell",
+            "command": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2\\portal2.exe -game portal2 -hijack -novid -steam -game C:\\Program Files (x86)\\Steam\\steamapps\\sourcemods\\tn2"
+        }
+    ]
+}
