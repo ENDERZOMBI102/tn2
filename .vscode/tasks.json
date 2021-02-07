@@ -6,7 +6,21 @@
         {
             "label": "Run Mod",
             "type": "shell",
-            "command": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2\\portal2.exe -game portal2 -hijack -novid -steam -game C:\\Program Files (x86)\\Steam\\steamapps\\sourcemods\\tn2"
+            "command": "C:\\\"Program Files (x86)\"\\Steam\\steamapps\\common\\\"Portal 2\"\\portal2.exe",
+            "args": [
+                "-game",
+                "portal2",
+                "-hijack",
+                "-novid",
+                "-steam",
+                "-game",
+                "C:\\Program Files (x86)\\Steam\\steamapps\\sourcemods\\tn2"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
