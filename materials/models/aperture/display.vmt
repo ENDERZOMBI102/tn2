@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/aperture/display"
+	"$phong" "1"
+	"$phongexponent" "80"
+	"$phongboost"	"2"
+	"$phongfresnelranges" "[.8 .9 1]"
+	"$basemapalphaphongmask" "1"
+}
+

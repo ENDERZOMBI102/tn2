@@ -1,0 +1,31 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/aperture/display_01"
+	"$phong" "1"
+	"$phongexponent" "80"
+	"$phongboost"	"2"
+	"$phongfresnelranges" "[.8 .9 1]"
+	"$basemapalphaphongmask" "1"
+
+
+	"$texture2" "dev/dev_scanline"
+	
+	"$surfaceprop" "glass"
+	"$nolod" "1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0
+			"texturescrollangle" 90
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .16
+			"texturescrollangle" -90
+		}
+	}
+}

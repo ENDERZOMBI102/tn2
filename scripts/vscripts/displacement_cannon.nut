@@ -166,8 +166,8 @@ function MakeCheckIfEnergyBallNotFiredInsideWall() {
 
 
 function DoWarpPlate() {
-SendToConsole("play warplate_warp")
-DoAttack2()
+	SendToConsole("play warplate_warp")
+	DoAttack2()
 }
 
 function TurnOnTesla() {
