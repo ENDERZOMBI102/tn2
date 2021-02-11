@@ -1,0 +1,19 @@
+cycler_weapon
+ent_hover_turret_tether (crashes, error with model)
+portal_procedural_generator (wtf... the laser emitter??)
+portal_ragdoll
+prop_hallucination
+prop_mirror
+prop_ragdoll
+prop_talker (wtf)
+prop_tic_tac_toe_panel (wtff)
+prop_vehicle (interesting) (crashes <v)
+prop_vehicle_driveable (interesting x2)
+spraycan (whatta)
+waterbullet (tf)
+
+WEAPONS:
+	weapon_promo_antenna_ball
+	weapon_promo_antenna_egg
+	weapon_promo_helmet_ball
+	weapon_promo_helmet_egg
