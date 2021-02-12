@@ -27,3 +27,5 @@ platform
 *.bsp
 mapsrc/instances
 *.lin
+*.dll
+media/*.png
