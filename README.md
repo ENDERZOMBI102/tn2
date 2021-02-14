@@ -2,8 +2,9 @@
 The nightmare returns in this sequel!
 
 mod specifics
-| rickrolls | 0 |
+| type      | quantity |
 | --------- | - |
+| rickrolls | 0 |
 | jabaits   | 0 |
 | crashes   | -1|
 | exit buttons | 1 |
