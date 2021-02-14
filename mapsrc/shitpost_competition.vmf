@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "667"
+	"mapversion" "679"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "667"
+	"mapversion" "679"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13383,13 +13383,13 @@ entity
 	"id" "79499"
 	"classname" "game_text"
 	"channel" "1"
-	"color" "0 0 255"
+	"color" "0 0 128"
 	"color2" "0 0 128"
-	"effect" "0"
+	"effect" "1"
 	"fadein" "1.0"
 	"fadeout" "0.5"
 	"fxtime" "0.25"
-	"holdtime" "1.2"
+	"holdtime" "2"
 	"message" "[INSERT_MAP_NAME_HERE] A Map By ENDERZOMBI102"
 	"targetname" "entry_text"
 	"x" "-1"
@@ -13408,7 +13408,7 @@ entity
 	"id" "72938"
 	"classname" "env_fade"
 	"duration" "2"
-	"holdtime" "0"
+	"holdtime" "3"
 	"renderamt" "255"
 	"rendercolor" "0 0 0"
 	"ReverseFadeDuration" "2"
@@ -19542,9 +19542,8 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "server_commanderCommandsv_cheats 10-1"
 		"OnMapSpawn" "entry_faderFadeReverse0-1"
-		"OnMapSpawn" "entry_textDisplay0-1"
+		"OnMapSpawn" "entry_textDisplay1-1"
 	}
 	"origin" "1146.25 96 64"
 	editor
@@ -44721,8 +44720,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1217.79 112.332 141.688]"
-		"look" "[1216.98 112.425 141.068]"
+		"position" "[1178.82 55.7848 169.054]"
+		"look" "[1178.18 55.9449 168.283]"
 	}
 }
 cordons
